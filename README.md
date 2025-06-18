@@ -1,6 +1,6 @@
 # `Gem_support` [![Gem Version](https://badge.fury.io/rb/gem_support.svg)](https://badge.fury.io/rb/gem_support)
 
-Description of GemSupport
+Generally useful support code for Ruby gems, especially gem metaprogramming.
 
 
 ## Installation
@@ -26,7 +26,11 @@ $ bundle
 
 ## Usage
 
-Describe how to use this gem
+This gem is meant to be used as a library, so you can use it in your code by requiring it:
+
+```ruby
+require 'gem_support'
+```
 
 
 ## Development
