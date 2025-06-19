@@ -2,7 +2,7 @@
 module GemSupport
   # @param file must be a fully qualified file name
   # @return Gem::Specification of gem that file points into, or nil if not called from a gem
-  def current_spec(file)
+  def self.current_spec(file)
     return nil unless File.file?(file)
 
     searcher = if Gem::Specification.respond_to?(:find)
